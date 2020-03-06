@@ -2,6 +2,7 @@
   {
     "cardID": 1,
     "title": "Veggie day?!",
+    "image": "",
     "fact": "",
     "info_link": "",
     "book_tip": "https://www.bokus.com/bok/9789171264558/the-world-changing-cookbook/",
@@ -10,30 +11,34 @@
   {
     "cardID": 2,
     "title": "Buy quality - it will last longer",
+    "image": "",
     "fact": "",
     "info_link": "",
-    "book_tip": "https://www.bokus.com/bok/9789171264558/the-world-changing-cookbook/",
+    "book_tip": "",
     "language_code": "eng"
   },
   {
     "cardID": 3,
     "title": "Take a happy planet photo",
+    "image": "",
     "fact": "",
     "info_link": "",
-    "book_tip": "https://www.bokus.com/bok/9789171264558/the-world-changing-cookbook/",
+    "book_tip": "",
     "language_code": "eng"
   },
   {
     "cardID": 4,
     "title": "Say hello to a tree",
+    "image": "",
     "fact": "",
     "info_link": "",
-    "book_tip": "https://www.bokus.com/bok/9789171264558/the-world-changing-cookbook/",
+    "book_tip": "",
     "language_code": "eng"
   },
   {
     "cardID": 5,
     "title": "Reuse water on a plant",
+    "image": "",
     "fact": "",
     "info_link": "",
     "book_tip": "",
@@ -42,6 +47,7 @@
   {
     "cardID": 6,
     "title": "Plan this week’s shopping",
+    "image": "",
     "fact": "",
     "info_link": "",
     "book_tip": "",
@@ -50,6 +56,7 @@
   {
     "cardID": 7,
     "title": "Enjoy your bike ride",
+    "image": "",
     "fact": "",
     "info_link": "",
     "book_tip": "",
@@ -58,6 +65,7 @@
   {
     "cardID": 8,
     "title": "Pick up plastic garbage at the beach",
+    "image": "",
     "fact": "",
     "info_link": "",
     "book_tip": "",
@@ -66,6 +74,7 @@
   {
     "cardID": 9,
     "title": "Recycle",
+    "image": "",
     "fact": "",
     "info_link": "",
     "book_tip": "",
@@ -74,6 +83,7 @@
   {
     "cardID": 10,
     "title": "Borrow a nice dress of friend",
+    "image": "",
     "fact": "",
     "info_link": "",
     "book_tip": "",
@@ -81,7 +91,8 @@
   },
   {
     "cardID": 11,
-    "title": "Sell those pants",
+    "title": "Sell those pants 👖",
+    "image": "",
     "fact": "",
     "info_link": "",
     "book_tip": "",
@@ -90,6 +101,7 @@
   {
     "cardID": 12,
     "title": "Fix a hole in a sock",
+    "image": "",
     "fact": "",
     "info_link": "",
     "book_tip": "",
@@ -98,6 +110,7 @@
   {
     "cardID": 13,
     "title": "Play with your last idea",
+    "image": "",
     "fact": "",
     "info_link": "",
     "book_tip": "",
@@ -106,6 +119,7 @@
   {
     "cardID": 14,
     "title": "What is the opposite action?",
+    "image": "",
     "fact": "",
     "info_link": "",
     "book_tip": "",
@@ -114,6 +128,7 @@
   {
     "cardID": 15,
     "title": "Recycle the smallest items as well",
+    "image": "",
     "fact": "",
     "info_link": "",
     "book_tip": "",
@@ -122,6 +137,7 @@
   {
     "cardID": 16,
     "title": "Test drive an electric car",
+    "image": "",
     "fact": "",
     "info_link": "",
     "book_tip": "",
@@ -130,6 +146,7 @@
   {
     "cardID": 17,
     "title": "Be happy and aware of the planet",
+    "image": "",
     "fact": "",
     "info_link": "",
     "book_tip": "",
@@ -138,6 +155,7 @@
   {
     "cardID": 18,
     "title": "Be smart and reuse",
+    "image": "",
     "fact": "",
     "info_link": "",
     "book_tip": "",
@@ -146,6 +164,7 @@
   {
     "cardID": 19,
     "title": "Live healthy",
+    "image": "",
     "fact": "",
     "info_link": "",
     "book_tip": "",
@@ -154,6 +173,7 @@
   {
     "cardID": 20,
     "title": "Cook something new of the left overs",
+    "image": "",
     "fact": "",
     "info_link": "",
     "book_tip": "",
@@ -162,6 +182,7 @@
   {
     "cardID": 21,
     "title": "Check if a new thing has been travelling long distance to get to you",
+    "image": "",
     "fact": "",
     "info_link": "",
     "book_tip": "",
@@ -170,6 +191,7 @@
   {
     "cardID": 22,
     "title": "Where to go on next vacation?",
+    "image": "",
     "fact": "",
     "info_link": "",
     "book_tip": "",
@@ -178,6 +200,7 @@
   {
     "cardID": 23,
     "title": "Give somebody else the things you don't use",
+    "image": "",
     "fact": "",
     "info_link": "",
     "book_tip": "",
@@ -186,6 +209,7 @@
   {
     "cardID": 24,
     "title": "Share a good idea",
+    "image": "",
     "fact": "",
     "info_link": "",
     "book_tip": "",
@@ -194,6 +218,7 @@
   {
     "cardID": 25,
     "title": "Turn light off",
+    "image": "",
     "fact": "",
     "info_link": "",
     "book_tip": "",
@@ -202,14 +227,34 @@
   {
     "cardID": 26,
     "title": "Planet Stewardship for the win",
+    "image": "",
     "fact": "",
     "info_link": "",
     "book_tip": "",
     "language_code": "eng"
   },
   {
-    "cardID": 25,
+    "cardID": 27,
     "title": "Become a biosphere steward",
+    "image": "",
+    "fact": "",
+    "info_link": "",
+    "book_tip": "",
+    "language_code": "eng"
+  },
+  {
+    "cardID": 28,
+    "title": "Open for change?",
+    "image": "",
+    "fact": "",
+    "info_link": "",
+    "book_tip": "",
+    "language_code": "eng"
+  },
+  {
+    "cardID": 29,
+    "title": "Open for change?",
+    "image": "https://images.unsplash.com/photo-1507561152-ed3719ac59f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
     "fact": "",
     "info_link": "",
     "book_tip": "",
