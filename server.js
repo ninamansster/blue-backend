@@ -14,11 +14,19 @@ const Card = mongoose.model('Card', {
     type: Number
   },
 
+  header: {
+    type: String
+  },
+
   title: {
     type: String
   },
 
   image: {
+    type: String
+  },
+
+  image_by: {
     type: String
   },
 
@@ -104,7 +112,7 @@ app.get('/cards', async (req, res) => {
 // })
 app.get('/cards/:cardID', (req, res) => {
   const cardID = req.params.cardID
-  Card.findOne({ 'cardID': +cardID })
+  Card.findOne({ 'cardID': cardID })
     .then((results) => {
       res.json(results)
     }).catch((err) => {
