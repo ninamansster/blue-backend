@@ -30,15 +30,11 @@ const Card = mongoose.model('Card', {
     type: String
   },
 
-  fact: {
+  thought: {
     type: String
   },
 
   info_link: {
-    type: String
-  },
-
-  book_tip: {
     type: String
   },
 
@@ -71,9 +67,8 @@ if (process.env.RESET_DATABASE) {
 // {
 //   "cardID": 8,
 //   "title": "Pick up plastic garbage at the beach",
-//   "fact": "",
+//   "thought": "",
 //   "info_link": "",
-//   "book_tip": "",
 //   "language_code": "eng"
 // }
 // Defines the port the app will run on. Defaults to 8080, but can be 
