@@ -40,6 +40,16 @@ const Card = mongoose.model('Card', {
 
   language_code: {
     type: String
+  },
+
+  hearts: {
+    type: Number,
+    default: 0
+  },
+
+  createdAt: {
+    type: Date,
+    default: () => new Date
   }
 })
 
@@ -82,9 +92,19 @@ const app = express()
 app.use(cors())
 app.use(bodyParser.json())
 
+//Service unavailable
+
+// app.use((req, res, next) => {
+//   if (mongoose.connection.readystate === 1) {
+//     next()
+//   } else {
+//     res.status(503).json({ error: 'service unavailable' })
+//   }
+// })
+
 // Start defining your routes here
 app.get('/', (req, res) => {
-  res.send('Hello world')
+  res.send('Hello world - we as planet stewards take care of your environment')
 })
 
 // app.get('/cards', (req, res) => {
@@ -113,6 +133,22 @@ app.get('/cards/:cardID', (req, res) => {
     }).catch((err) => {
       res.json({ message: 'Cannot find this card', err: err })
     })
+})
+
+//POST likes of the card 
+
+app.post('/:cardID/like', async (req, res) => {
+  const { cardId } = req.params;
+  //console.log(`POST /${_id}/like`)
+
+  try {
+    await Card.updateOne({ cardId }, { '$inc': { 'hearts': 1 } })
+    // Success 
+    res.status(201).json()
+    // Failure to count
+  } catch (err) {
+    res.status(400).json({ message: 'We could not register your heart', error: err.errors })
+  }
 })
 
 // Start the server
