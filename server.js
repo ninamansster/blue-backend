@@ -116,15 +116,7 @@ app.get('/cards', async (req, res) => {
   res.json(cards)
 })
 
-// app.get('/cards:cardID', async (req, res) => {
-//   const cardID = req.params.cardID
-//  Card.findOne({ 'cardID': cardID })
-//   if (findThatCard) {
-//     res.json(findThatCard)
-//   } else {
-//     res.status(404).send('There was no card with that id')
-//   }
-// })
+// GET the card
 app.get('/cards/:cardID', (req, res) => {
   const cardID = req.params.cardID
   Card.findOne({ 'cardID': cardID })
@@ -138,11 +130,11 @@ app.get('/cards/:cardID', (req, res) => {
 //POST likes of the card 
 
 app.post('/:cardID/like', async (req, res) => {
-  const { cardId } = req.params;
+  const { cardID } = req.params;
   //console.log(`POST /${_id}/like`)
 
   try {
-    await Card.updateOne({ cardId }, { '$inc': { 'hearts': 1 } })
+    await Card.updateOne({ 'cardID': cardID }, { '$inc': { 'hearts': 1 } })
     // Success 
     res.status(201).json()
     // Failure to count
