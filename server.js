@@ -127,6 +127,9 @@ app.get('/cards/:cardID', (req, res) => {
     })
 })
 
+//GET RANDOM ORDER OF CARDS
+// aggregate.sample(3); // Add a pipeline that picks 3 random documents
+
 //POST likes of the card 
 
 app.post('/:cardID/like', async (req, res) => {
@@ -134,14 +137,15 @@ app.post('/:cardID/like', async (req, res) => {
   //console.log(`POST /${_id}/like`)
 
   try {
-    await Card.updateOne({ 'cardID': cardID }, { '$inc': { 'hearts': 1 } })
+    const updated = await Card.updateOne({ 'cardID': cardID }, { '$inc': { 'hearts': 1 } })
     // Success 
-    res.status(201).json()
+    res.status(201).json(updated)
     // Failure to count
   } catch (err) {
     res.status(400).json({ message: 'We could not register your heart', error: err.errors })
   }
 })
+
 
 // Start the server
 app.listen(port, () => {

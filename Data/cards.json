@@ -91,12 +91,12 @@
   },
   {
     "cardID": 10,
-    "header": "Borrow a nice dress of friend!",
+    "header": "Borrow a nice dress of a friend!",
     "title": "",
     "image": "https://images.unsplash.com/photo-1563492457520-f92a05942c8a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
     "image_by": "Photo by Zhong Liguo on Unsplash",
     "thought": "It is a good practice to think that you can use a dress several times. Borrow the dress and it will be worn a nother time. That is the trick to decrease the impact of each clothes. Use it several times",
-    "info_link": "https://www.nytimes.com/interactive/2019/climate/sustainable-clothing.html",
+    "info_link": "",
     "language_code": "eng"
   },
   {
@@ -106,7 +106,7 @@
     "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
     "image_by": "Photo by Alicia Petresc on Unsplash",
     "thought": "If you were to buy jeans and they were heavier, they would definitely be more durable, says Sean Cormier, a professor at the Fashion Institute of Technology.",
-    "info_link": "https://www.nytimes.com/interactive/2019/climate/sustainable-clothing.html",
+    "info_link": "",
     "language_code": "eng"
   },
   {
