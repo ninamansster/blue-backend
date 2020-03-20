@@ -118,7 +118,7 @@ app.get('/cards/:cardID', (req, res) => {
     })
 })
 
-//POST likes of the card 
+// POST likes of the card 
 
 app.post('/:cardID/like', async (req, res) => {
   const { cardID } = req.params;
