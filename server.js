@@ -100,9 +100,7 @@ app.get('/', (req, res) => {
   res.send('Hello world - we as planet stewards take care of your environment')
 })
 
-// app.get('/cards', (req, res) => {
-//   res.json(cardsData)
-// })
+// GET All the cards
 
 app.get('/cards', async (req, res) => {
   const cards = await Card.find()
@@ -119,9 +117,6 @@ app.get('/cards/:cardID', (req, res) => {
       res.json({ message: 'Cannot find this card', err: err })
     })
 })
-
-//GET RANDOM ORDER OF CARDS
-// aggregate.sample(3); // Add a pipeline that picks 3 random documents
 
 //POST likes of the card 
 
