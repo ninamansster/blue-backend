@@ -4,7 +4,6 @@ import cors from 'cors'
 import mongoose from 'mongoose'
 import cardsData from './data/cards.json'
 
-
 const mongoUrl = process.env.MONGO_URL || "mongodb://localhost/blue"
 mongoose.connect(mongoUrl, { useNewUrlParser: true, useUnifiedTopology: true })
 mongoose.Promise = Promise
@@ -74,13 +73,7 @@ if (process.env.RESET_DATABASE) {
   seedDatabase()
 }
 
-// {
-//   "cardID": 8,
-//   "title": "Pick up plastic garbage at the beach",
-//   "thought": "",
-//   "info_link": "",
-//   "language_code": "eng"
-// }
+
 // Defines the port the app will run on. Defaults to 8080, but can be 
 // overridden when starting the server. For example:
 //
